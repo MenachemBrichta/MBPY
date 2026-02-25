@@ -1,5 +1,6 @@
 """Greeter CLI entry point."""
 
+
 import argparse
 from datetime import datetime
 
