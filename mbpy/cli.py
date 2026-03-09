@@ -7,7 +7,7 @@ from datetime import datetime
 
 def greet(name: str, verbose: bool = False) -> str:
     """Return a greeting for the given name."""
-    message = f"Hello, {name}!"
+    message = f"Hello, {name}!!"
     if verbose:
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         message += f" (Current time: {now})"
